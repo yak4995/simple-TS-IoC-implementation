@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+		"target": "es6",
+		"lib": [
+			"es7",
+			"dom",
+			"esnext.asynciterable"
+		],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"outDir": "dist",
+		"baseUrl": ".",
+		"resolveJsonModule": true,
+		"esModuleInterop": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

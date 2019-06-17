@@ -1,0 +1,11 @@
+{
+  "Name": "IoC-container test",
+  "Version": "0.0.1",
+  "author": "yak4995",
+  "scripts": {
+    "start": "tsc && node dist/src/app.js"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0"
+  }
+}

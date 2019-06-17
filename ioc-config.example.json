@@ -1,0 +1,17 @@
+{
+	"IProcessor": {
+		"path": "impl",
+		"className": "StandartProcessor",
+		"args": ["first", "IOptions"]
+	},
+	"IOptions": {
+		"path": "impl",
+		"className": "StandartOptions",
+		"args": [
+			{
+				"a": 1,
+				"b": 2
+			}
+		]
+	}
+}
